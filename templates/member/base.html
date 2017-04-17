@@ -1,0 +1,9 @@
+{% extends 'member/base.html' %}
+{% load settings_value %}
+{% load static  %}
+
+{% block scripts %}
+  <link rel="stylesheet" href="{% static 'css/materialize.min.css' %}" />
+  <script src="{% static 'js/materialize.min.js' %}"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
+{% endblock %}
