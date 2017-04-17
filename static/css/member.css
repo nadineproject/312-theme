@@ -421,7 +421,7 @@ table td {
 .btn {
 	border: 1px solid RGBA(156, 88, 87, 1.00);
 	border-radius: 2px;
-	background-color: white !important;
+	background-color: white;
 	color: RGBA(156, 88, 87, 1.00);
 	box-shadow: none !important;
 }
@@ -490,11 +490,15 @@ table td {
 	padding-right: 7px;
 	vertical-align: middle;
 	display: inline-block;
-	background-color: RGBA(96, 131, 157, 1.00);
+	background-color: RGBA(156, 88, 87, 1.00);
 }
 
 .rotate-btn img {
 	vertical-align: middle;
+}
+
+.pf-email button {
+	background-color: white;
 }
 
 .edit-btn {
@@ -781,7 +785,7 @@ textarea#id_bio {
 }
 
 .verify-email, #add-email {
-	background: RGBA(63, 146, 161, 1);
+	background: white;
 }
 
 input#id_photo {
@@ -909,7 +913,7 @@ div.link-formset.row.dynamic-form {
 }
 
 #site-search-form input.search-btn {
-	background: RGBA(79, 134, 135, 1);
+	background: white;
 	width: 30%;
 	padding: 0;
 	margin-left: 5%;
