@@ -251,8 +251,20 @@ table td {
   z-index: 3000;
 }
 
-#home-nav, #home-nav .dropdown-content {
+#home-nav {
 	box-shadow: none !important;
+}
+
+#home-nav .dropdown-content {
+	box-shadow: 3px 3px 3px RGBA(0, 0, 0, .2);
+}
+
+#home-nav .dropdown-content#dropdown2 {
+	min-width: 260px !important;
+}
+
+#home-nav .dropdown-content#dropdown1 {
+	min-width: 200px !important;
 }
 
 
