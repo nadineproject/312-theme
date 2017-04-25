@@ -127,7 +127,7 @@ table td {
 }
 
 .header-font {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: RGBA(79, 134, 135, 1);
 }
 
@@ -528,7 +528,8 @@ table td {
 #welcome-p {
 	font-size: 1.2em;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
 }
 
 #chat_icon {
@@ -616,7 +617,7 @@ div#login_box.col.s6 {
 	margin-top: 5%;
 	margin-bottom: 5%;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #login_form th, #registration_form th {
@@ -1285,6 +1286,7 @@ img#mem-photo {
 h2#prof-name {
 	text-align: left;
 	font-size: 2.4em;
+	font-weight: 700;
 }
 
 .editable-photo {
@@ -1483,6 +1485,7 @@ img.org-photo#mem-photo {
 .collapsible-body {
 	background-color: RGBA(254, 254, 254, 1);
 	padding: 5%;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .collapsible-body h3 {
@@ -1497,13 +1500,28 @@ img.org-photo#mem-photo {
 
 .collapsible-body p {
 	padding: .3em;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .current-orgs, .past-orgs {
 	margin-bottom: 5%;
 }
 
+.td-title {
+	font-weight: bolder;
+	text-align: right !important;
+}
 
+.sub-th {
+	color: white;
+	background-color: RGBA(76, 76, 76, 1.00);
+	border-radius: 0;
+	font-weight: lighter;
+}
+
+.sub-table {
+	font-size: .9em;
+}
 
 dt, dd {
 	display: inline-block;
