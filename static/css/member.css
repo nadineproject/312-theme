@@ -67,10 +67,14 @@ a {
 }
 
 p {
-	 font-family: 'Poppins', sans-serif;
+	 font-family: 'Roboto', sans-serif;
 	 font-weight: normal;
 	 font-size: 14px;
 	 line-height: 1.6;
+}
+
+li {
+	font-family: 'Roboto', sans-serif;
 }
 
 table th {
@@ -110,10 +114,6 @@ table td {
 	text-align: center;
 }
 
-.btn {
-	background-color: RGBA(79, 134, 135, 1);
-}
-
 .ir {
 	display: block;
 	text-indent: -999em;
@@ -127,7 +127,7 @@ table td {
 }
 
 .header-font {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	color: RGBA(79, 134, 135, 1);
 }
 
@@ -223,7 +223,7 @@ table td {
 
 /*Navigation and the Navigation Bar*/
 #main-nav {
-	background-color: RGBA(159, 89, 88, 1.00);
+	background-color: RGBA(56, 74, 100, 1.00);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -427,7 +427,8 @@ table td {
 }
 
 .btn:hover {
-
+	background-color: RGBA(156, 88, 87, 1.00);
+	color: white;
 }
 
 .booking-redirect {
@@ -528,8 +529,7 @@ table td {
 #welcome-p {
 	font-size: 1.2em;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
 }
 
 #chat_icon {
@@ -544,7 +544,7 @@ table td {
 
 .card {
 	text-align: center;
-	background-color: RGBA(123, 153, 161, 1.00);
+	background-color: RGBA(116, 141, 150, 1.00);
 }
 
 .card a {
@@ -617,7 +617,7 @@ div#login_box.col.s6 {
 	margin-top: 5%;
 	margin-bottom: 5%;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 #login_form th, #registration_form th {
@@ -1286,7 +1286,8 @@ img#mem-photo {
 h2#prof-name {
 	text-align: left;
 	font-size: 2.4em;
-	font-weight: 700;
+	font-weight: 400;
+	color: RGBA(204, 123, 115, 1.00);
 }
 
 .editable-photo {
@@ -1485,7 +1486,7 @@ img.org-photo#mem-photo {
 .collapsible-body {
 	background-color: RGBA(254, 254, 254, 1);
 	padding: 5%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .collapsible-body h3 {
@@ -1500,7 +1501,7 @@ img.org-photo#mem-photo {
 
 .collapsible-body p {
 	padding: .3em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .current-orgs, .past-orgs {
@@ -1514,13 +1515,26 @@ img.org-photo#mem-photo {
 
 .sub-th {
 	color: white;
-	background-color: RGBA(76, 76, 76, 1.00);
+	background-color: RGBA(5, 25, 40, 1.00);
 	border-radius: 0;
 	font-weight: lighter;
 }
 
 .sub-table {
 	font-size: .9em;
+}
+
+div#profile table tr .bold-blue {
+	width: 25%;
+}
+
+div#profile dl {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#prof-bio {
+	margin-bottom: 3%;
 }
 
 dt, dd {
@@ -1530,6 +1544,10 @@ dt, dd {
 
 dt {
 	font-weight: bold;
+}
+
+dd {
+	font-family: 'Roboto', sans-serif;
 }
 
 dd:after {
@@ -2041,7 +2059,7 @@ footer.sticky-footer {
 	}
 
 	.logo-img {
-		left: 37%;
+		left: 40%;
 	}
 }
 
